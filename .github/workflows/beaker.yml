@@ -22,7 +22,7 @@ jobs:
         # beaker_workspace: ai2/my-workspace
 
         # Name for the image. If omitted, the image will named with the repository and commit SHA e.g. repo-abc1234.
-        beaker_image_name: sanchits_count_words
+        beaker_image_name: sanchits_duplicate
 
         # If set any conflicting image name will be cleared.
         # beaker_image_name_overwrite: "true"

@@ -28,8 +28,8 @@ RUN apt-get update --fix-missing && apt-get install -y \
 RUN pip install --no-cache-dir -q http://download.pytorch.org/whl/cu80/torch-0.4.0-cp36-cp36m-linux_x86_64.whl
 RUN pip install torchvision
 
-COPY count_words.py .
+COPY duplicate.py .
 
-ENV TASK1_PATH=dataset/
+ENV TASK2_PATH=dataset/
 
-CMD ["python", "count_words.py"]
+CMD ["python", "duplicate.py"]
